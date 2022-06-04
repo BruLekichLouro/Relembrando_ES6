@@ -4,7 +4,7 @@
 
     if(true){
         let teste = 'valor if';
-        console.log(`valor dentro do if "${teste}"`);
+        console.log(`valor dentro do if é o declarado aqui "${teste}"`);
     }
     console.log(`valor após execução do if "${teste}"`);
 })();
