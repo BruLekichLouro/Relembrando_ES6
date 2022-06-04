@@ -7,9 +7,48 @@
     <title>Javascript_ECMAScript6</title>
 </head>
 <body>
-    <h1>JavaScript_ECMAScript6</h1>
+    h1>JavaScript_ECMAScript6</h1>
     <p>ECMA: especificação da linguagem de programação que é padronizada pelo ECMA262 da ECMA international, servindo como
         base para futuras implementações de outras linguagens como js, jscript e actionscript</p>
-
+    <p>Babel: é um compilador de JS</p>
+    <p> JS é uma linguagem interpretada: código é executado de cima pra baixo e o resultado desta execução é imediatamente
+        retornado, vc não precisa transformar seu código em algo diferente do executado. Linguagens compiladas precisam
+        transformadas em algo diferente pra que seja executado no computador. Ex.: C e C++
+    </p>
+    <p>É uma linguagem de tipagem fraca: não há verificação nas operações de JS. É possível utilizar o operador
+        de soma com números ou strings sem que ocorra erro.
+    </p>
+    <p>É uma linguagem de tipagem dinêmica: não precisamos explicitar o tipo da variáavel no momento da criação</p>
+    <p><b>TypeScript:</b> super set da linguagem JS: consegue adicionar tipos em tempo de desenvolvimento e adicona funcionalidades
+        que o JS não tem por padrão. Adiciona interfaces, enum, tipo generic, etc.
+    </p>
+    <p> https://www.typescriptlang.org/ > playground permite que vc escreva em TS e transforme em JS</p>
+    <p><b>Flow:</b>https://flow.org/ > é um outro checador de tipagem mas não é um super set, então não tem enum, interface, executado</p>
+    <p>Suporte do TS é melhor do que do flow</p>
+    <p><b>Funções de primeira classe e ordem maior:</b> Continuar nos 19 min</p>
+    <p><b>Currying:</b> técnica de transformar uma função com n parâmetros em apenas uma função que
+    recebe um parâmetro e para cada parâmetro a gente retorna uma nova função</p>
+    <p><b>Hoisting:</b>levantar ou suspender algo, é o que acontece no js qdo declaramos variáveis e/ou
+function; impede que vc use uma var antes de ser definida. </p>
+<p> Pode ser dividido em dois tipos: de variáveis e de Funções. 
+    <br>Hoisting de variável só eleva a criação de variável e não sua atribuição.
+    <br>Hoisting de função a função ser elevada ao topo como um todo
+</p>
+<p><b>Imutabilidade:</b> em linguagens funcionais os dados que vamos criando nunca mudam; a var nunca vai mudar, se vc precisar
+mudar ela, vc vai ter que criar uma nova</p>
+<p>Ex.: ao invés de mudar um array, iremos criar um novo array, baseado neste que queremos alterar e se formos adicionar um
+    um novo item, pegaremos todo o conteúdo deste array e concatenaremos um novo. se for remover, a gente filtra pra remover
+</p>
+<p>Mesma coisa com objetos: nunca atualizamos propriedades de objetos, a gente copia e altera só o que queremos</p>
+<p>Toda vez que passamos um objeto ou array para função, é passado por referÊncia. Se vc alterar eles, vc altera o local que a variável aponta
+    Ele aponta para o mesmo endereço de memória
+</p>
+<p>String literal: '${user.name)} ${user.lastName}'</p>
+<p><b>Tipos e variáveis:</b> existem 3 formas de armazenarmos valores : var, let e const.Let e const introduziram o conceito de escopo de bloco.
+    Quando vc faz um if, for, while, etc, (toda vez que vc usa as chaves) é um escopo de bloco
+<br>var nameVar ='Guilherme'; Só aceita escoo global ou de função
+<br> let nameLet = "Guilherme"; 
+<br>const nameConst = "Guilherme";
+</p>
 </body>
 </html>
