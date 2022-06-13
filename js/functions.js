@@ -1,5 +1,5 @@
 //arrays e functions são objetos que permitem ser chamados
-function fn(){
+function fun(){
     return 'Code here';
 }
 
