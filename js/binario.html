@@ -1,0 +1,20 @@
+//in
+something in somethingItems;
+
+//Arrays
+var arvores = new Array["pau-brasil", "loureiro", "cedro", "carvalho"];
+0 in arvores; //retorna true
+1 in arvores; //retorna true
+6 in arvores; // retorna false
+"cedro" in arvores; //retorna false (vc deve especificar o número do indice, não o valor)
+"length" in arvores; // retorna true (length é uma propriedade de array)
+
+//Objetos predefinidos
+"PI" in Math; //retorna true
+var minhaString = new string ('coral');
+"length" in minhaString; //retorna true
+
+//Objetos personalizados
+var meucarro = {marca:"Honda", modelo: "Acord", ano: 1998};
+"marca" in meucarro; //retorna true;
+"modelo" in meucarro; // retorna true;
